@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Hi! I\'m Hamza Hmem!',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
+  authorName: 'Hamza Hmem',
+  twitterUsername: '@hamza_hmem',
+  githubUsername: 'HammzaHM',
+  authorAvatar: '/images/avatar.jpg',
   authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
+    In 2018 I started working as a support technician and I approached the developers.
     In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS and React Native.</strong>`,
   skills: [
     {
       name: 'HTML',
@@ -21,88 +21,80 @@ module.exports = {
     },
     {
       name: 'Javascript',
-      level: 50
+      level: 70
     },
     {
       name: 'NodeJs',
-      level: 40
-    },
-    {
-      name: 'React',
       level: 60
     },
     {
-      name: 'Git',
-      level: 70
+      name: 'React',
+      level: 80
     },
-    /* more skills here */
+    {
+      name: 'React Native',
+      level: 50
+    },
+    {
+      name: 'Git',
+      level: 50
+    },
   ],
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "Best Web mobile",
       begin: {
-        month: 'sep',
+        month: 'april',
         year: '2019'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
+      duration: '6 months',
+      occupation: "React JS developer",
+      description: "Create a ReactJS application that responses to all customers needs in order to memic the food delivery mobile application."
   
     },  {
-      company: "Lendico",
+      company: "Wssel For Food Delivery",
       begin: {
         month: 'apr',
-        year: '2018'
+        year: '2020'
+      },
+      duration: 'until now',
+      occupation: "Full stack developer",
+      description: "I am part of the Corporate team, responsible for the development and maintenance of a delivery food mobile application created with Node js and React Native."
+  
+    }, {
+      company: "Achgaal Technology",
+      begin: {
+        month: 'November',
+        year: '2020'
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
-        year: '2016'
-      },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
-    },
+      occupation: "React Native developer",
+      description: "Build a React Native Application"
+    }
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/i7san.png",
+      description: "volunteering website for managing peoples donates",
+      url: "https://github.com/HammzaHM/i7sen.tn"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/merng-stack.png",
+      description: "Merng Stack Application",
+      url: "https://github.com/HammzaHM/merng-stack-blog-post"
     },
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/hmem_hamza",
+    linkedin: "https://www.linkedin.com/in/hamza-hmem-5018b2153",
+    github: "https://github.com/HammzaHM",
+    email: "hmem.hamza@yahoo.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'UA-000000000-1',
+  siteCover: '/images/cover.jpg',
   background_color: '#ffffff',
   theme_color: '#25303B',
   fontColor: "#000000cc",
